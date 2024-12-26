@@ -52,47 +52,41 @@
         </tr>
         <tr>
             <td colspan="3" style="padding: 10px; background-color: #ecf0f1;">
-                <h3>🌟 What is this project about?</h3>
-                <p> The Strong Concrete Client Side is the frontend system for managing a concrete production and sales
-                    business. It offers a user-friendly interface for accessing various business operations, such as
-                    user management, vehicle tracking, firm and product management, and more. The dashboard provides
+                <h2>🌟 What is this project about?</h2>
+                <p>The Strong Concrete Client Side is a comprehensive frontend system designed to support and manage 
+                    the operations of a concrete production and sales business. It provides a streamlined interface for 
+                    multiple business functions, including user management, vehicle tracking, firm and product management and real-time communication. 
+                    The dashboard provides
                     real-time updates and visualization of data through charts and statistics, offering a seamless
-                    experience for end-users. </p>
+                    experience for end-users.
+                </p>
                 <h2>⚙️ Features</h2>
                 <ul>
-                    <li>Interactive Dashboard with charts and statistics (React-ApexCharts)</li>
-                    <li>FullCalendar Integration for production and delivery schedules</li>
-                    <li>User management (role-based access control)</li>
-                    <li>Vehicle tracking and management</li>
-                    <li>Product and material management</li>
-                    <li>Real-time communication with Socket.io-client</li>
-                    <li>Dynamic forms with validation (Formik & Yup)</li>
-                    <li>Rich text editor (React-Quill)</li>
-                    <li>Animations and smooth UI transitions</li>
-                    <li>Data tables for managing complex data (Mantine DataTable)</li>
-                    <li>Support for authentication (JWT decoding, NextAuth)</li>
+                    <li>📊 <strong>Interactive Dashboard:</strong> Includes data visualization with charts and statistics powered by React-ApexCharts.</li>
+                    <li>📅 <strong>Scheduling Integration:</strong> FullCalendar for organizing production and delivery schedules.</li>
+                    <li>👥 <strong>User Management:</strong> Role-based access control for secure and customized experiences.</li>
+                    <li>🚛 <strong>Vehicle Management:</strong> Track and monitor vehicles in real-time.</li>
+                    <li>📦 <strong>Product & Material Management:</strong> Oversee inventory and supply chain with dynamic tables.</li>
+                    <li>💬 <strong>Real-Time Communication:</strong> Integrated chat app powered by Socket.io-client for team collaboration.</li>
+                    <li>📝 <strong>Dynamic Forms with Validation:</strong> Robust form validation using Formik & Yup for data accuracy.</li>
+                    <li>🖋 <strong>Rich Text Editor:</strong> Manage and edit content easily with React-Quill.</li>
+                    <li>📒 <strong>Notes & Task List:</strong> Convenient sections for recording notes and creating to-do lists for organized workflow.</li>
+                    <li>❓ <strong>FAQ Section:</strong> A well-structured FAQ to assist users and enhance their experience.</li>
+                    <li>✨ <strong>Animations and Smooth Transitions:</strong> Enhance user interaction with seamless UI effects.</li>
+                    <li>📊 <strong>Data Tables:</strong> Utilizes Mantine DataTable for managing and sorting complex data sets.</li>
+                    <li>🔒 <strong>Authentication Support:</strong> Secure login with JWT decoding and NextAuth integration.</li>
                 </ul>
+               <h2>📎Project Resources </h2>
+                <ul>
+                    <li>📄 <a href="https://strong-concrete-backend-220e.onrender.com/documents/swagger/" target="_blank">API Document - Swagger</a></li>
+                    <li>🌐 <a href="https://strong-concrete-frontend.vercel.app/" target="_blank">Live Link</a></li>
+                    <li>🌐 <a href="https://github.com/AliDurul/strong_concrete_Backend/" target="_blank">Backend Repo</a></li>
+                </ul>
+                <h2>💬 Feedback and Collaboration </h2>
+                <p> I highly value your feedback and suggestions! If you have any questions, comments, or ideas for improvement, feel
+                    free to reach out. I am always open to collaborating on new and exciting projects. </p>
+                <p> Thank you for visiting my project. I hope you enjoy exploring it, and I look forward to connecting with you! </p>
             </td>
         </tr>
     </tbody>
 </table>
-<div id="user-content-toc" align="center">
-    <ul align="left">
-        <summary>
-            <h2 style="color: #2c3e50;">📄 How my My Project look like </h2>
-        </summary>
-    </ul>
-</div>
-<ul>
-    <li><a href="https://strong-concrete-backend-220e.onrender.com/documents/swagger/" target="_blank">Live Link</a></li>
-</ul>
-<div id="user-content-toc" align="center">
-    <ul align="left">
-        <summary>
-            <h2 style="color: #2c3e50;">💬 Feedback and Collaboration</h2>
-        </summary>
-    </ul>
-</div>
-<p> I highly value your feedback and suggestions! If you have any questions, comments, or ideas for improvement, feel
-    free to reach out. I am always open to collaborating on new and exciting projects. </p>
-<p> Thank you for visiting my project. I hope you enjoy exploring it, and I look forward to connecting with you! </p>
