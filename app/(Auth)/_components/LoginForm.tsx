@@ -60,14 +60,17 @@ const LoginForm = () => {
         <Form onSubmit={handleSubmit}>
           <div className="space-y-5">
             <div>
-              <label htmlFor="email">Email</label>
+              <div className="flex justify-between items-center">
+                <label htmlFor="email">Email</label>
+                <p className="text-gray-400">-{`>`} admin@gmail.com</p>
+              </div>
+
               <Field
                 type="email"
                 name="email"
                 placeholder="Enter Email"
-                className={`form-input ${
-                  touched.email && errors.email ? "border-red-500" : ""
-                } placeholder:text-gray-400 `}
+                className={`form-input ${touched.email && errors.email ? "border-red-500" : ""
+                  } placeholder:text-gray-400 `}
               />
               <ErrorMessage
                 name="email"
@@ -76,14 +79,16 @@ const LoginForm = () => {
               />
             </div>
             <div>
-              <label htmlFor="password">Password</label>
+              <div className="flex justify-between items-center">
+                <label htmlFor="password">Password</label>
+                <p className="text-gray-400">-{`>`} Admin2024.,?</p>
+              </div>
               <Field
                 type="password"
                 name="password"
                 placeholder="Enter Password"
-                className={`form-input placeholder:text-gray-400 ${
-                  touched.password && errors.password ? "border-red-500" : ""
-                }`}
+                className={`form-input placeholder:text-gray-400 ${touched.password && errors.password ? "border-red-500" : ""
+                  }`}
               />
               <ErrorMessage
                 name="password"
