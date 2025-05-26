@@ -35,25 +35,25 @@ const LoginForm = () => {
       initialValues={{ email: "", password: "" }}
       validationSchema={loginSchema}
       onSubmit={(values, { setSubmitting, resetForm }) => {
-        setTimeout(() => {
-          login(values)
-            .then((data) => {
-              if (data?.error) {
-                setSubmitting(false);
-                resetForm();
-                coloredToast("danger", data.error.trim());
-              } else {
-                router.push("/");
-                successToast("Signed in successfully.");
-                setSubmitting(false);
-              }
-            })
-            .catch((error) => {
+        // setTimeout(() => {
+        login(values)
+          .then((data) => {
+            if (data?.error) {
               setSubmitting(false);
               resetForm();
-              coloredToast("danger", "Something went wrong.");
-            });
-        }, 400);
+              coloredToast("danger", data.error.trim());
+            } else {
+              router.push("/");
+              successToast("Signed in successfully.");
+              setSubmitting(false);
+            }
+          })
+          .catch((error) => {
+            setSubmitting(false);
+            resetForm();
+            coloredToast("danger", "Something went wrong.");
+          });
+        // }, 400);
       }}
     >
       {({ touched, errors, isSubmitting, handleSubmit }) => (
