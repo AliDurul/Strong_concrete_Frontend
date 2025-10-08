@@ -35,13 +35,12 @@ const LoginForm = () => {
       initialValues={{ email: "", password: "" }}
       validationSchema={loginSchema}
       onSubmit={(values, { setSubmitting, resetForm }) => {
-        // setTimeout(() => {
         login(values)
           .then((data) => {
-            if (data?.error) {
+            if (!data?.success) {
               setSubmitting(false);
               resetForm();
-              coloredToast("danger", data.error.trim());
+              coloredToast("danger", data?.message.trim() || "Something went wrong.");
             } else {
               router.push("/");
               successToast("Signed in successfully.");
@@ -53,7 +52,6 @@ const LoginForm = () => {
             resetForm();
             coloredToast("danger", "Something went wrong.");
           });
-        // }, 400);
       }}
     >
       {({ touched, errors, isSubmitting, handleSubmit }) => (
