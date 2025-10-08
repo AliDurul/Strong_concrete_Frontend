@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import { coloredToast } from "@/utils/sweetAlerts";
 import { forwardMessage, replyMessage, sendMessage } from "@/lib/features/email/emailActions";
 import dynamic from "next/dynamic";
-const ReactQuill = dynamic(() => import('react-quill'), { ssr: false });
+const ReactQuill = dynamic(() => import('react-quill-new'), { ssr: false });
 
 export default function MailActionPage() {
     const isShowMailMenu = useAppSelector(selectIsShowMailMenu);

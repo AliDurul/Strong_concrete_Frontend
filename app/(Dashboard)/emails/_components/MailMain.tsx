@@ -1,7 +1,7 @@
 'use client'
 import { useState, useEffect, PropsWithChildren } from 'react';
 import 'tippy.js/dist/tippy.css';
-import 'react-quill/dist/quill.snow.css';
+import 'react-quill-new//dist/quill.snow.css';
 import { Email } from '@/types/types';
 import { useAppDispatch, useAppSelector } from '@/lib/hooks';
 import { selectEmails, selectFolderId, selectFolders, selectIsShowMailMenu, selectSelectedTab, setIds, setIsShowMailMenu, setPagedMails } from '@/lib/features/email/emailSlice';
